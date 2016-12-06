@@ -1,8 +1,8 @@
 <?php
 
-namespace ddd\Core\Http\Controllers\Auth;
+namespace ddd\Web\Http\Controllers\Auth;
 
-use ddd\User;
+use ddd\Domains\Users\User;
 use ddd\Core\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
