@@ -176,7 +176,9 @@ return [
         ddd\Core\Providers\AuthServiceProvider::class,
         // ddd\Core\Providers\BroadcastServiceProvider::class,
         ddd\Core\Providers\EventServiceProvider::class,
-        ddd\Core\Providers\RouteServiceProvider::class,
+        // ddd\Core\Providers\RouteServiceProvider::class,
+        ddd\Api\Providers\ApiRouteServiceProvider::class,
+        ddd\Web\Providers\WebRouteServiceProvider::class,
 
     ],
 
